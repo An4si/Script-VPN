@@ -24,20 +24,23 @@ Normalmente, al ejecutar `sudo openvpn archivo.ovpn`, la terminal se queda ocupa
    ```bash
    git clone https://github.com/An4si/Script-VPN.git
    ```
-   <br>
-2. **Dale persmisos de ejecucion:**
+2. **Entra en dicha carpeta:**
+   ```bash
+      cd Script-VPN
+   ```
+3. **Dale persmisos de ejecucion:**
    ```bash
    chmod +x vpn_connect.sh
    ```
    
-   Una vez tengas el script clonado en tu VM y le hayas dado permisos de ejecucion NO TENDRAS QUE TOCAR NADA DE DENTRO DEL SCRIPT.
+   Una vez tengas el script clonado en tu VM y le hayas dado permisos de ejecucion **NO TENDRAS QUE TOCAR NADA DE DENTRO DEL SCRIPT.**
    Lo unico que tendras que hacer en tu terminal es ejecutar mi script + tu VPN descargada previamente de cualquer plataforma de CTF's como podria ser TryHackMe, HackTheBox...
-3. **Ejecucion del comando:**
+4. **Ejecucion del comando:**
    ```bash
    ./vpn_connect.sh ruta/de/tu/archivo.ovpn
    ```
 
-4. **Desconectando Script VPN de forma segura**
+5. **Desconectando Script VPN de forma segura**
    ```bash
    ./vpn_connect.sh stop
    ```
