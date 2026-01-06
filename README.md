@@ -18,7 +18,7 @@ Normalmente, al ejecutar `sudo openvpn archivo.ovpn`, la terminal se queda ocupa
 
 ## 🛠️ Instalación y Uso
 
-## Opcion 1 (La mas recomendable y sencilla)
+### Opcion 1 (La mas recomendable y sencilla)
 
 1. **Clona el repositorio:**
    ```bash
@@ -52,7 +52,7 @@ El script toma tu vpn descargada previamnente en dicha plataforma (ejemplo.ovpn)
 <br>
 <br>
 
-## Opción 2: Si prefieres dejar una VPN concreta fija o por si la anterior opcion falla.
+### Opción 2: (Si prefieres dejar una VPN concreta fija o por si la anterior opcion falla.)
 Si por ejemplo solo usas HackTheBox y quieres ejecutar el script simplemente poniendo ```./vpn_connect.sh``` sin escribir nada más o si la opcion 1 falla lo unico que  tendrías que hacer es editar esta parte del script:
 
 
@@ -67,7 +67,7 @@ VPN_FILE="/home/tuusuario/descargas/htb.ovpn"
 
 Espero que te sirva para que puedas acceder sin molestias a cualquier VPN de nuestras increibles plataformas de CTF's.
 
-Feliz Hacking!
+Feliz Hacking!🕵️‍♂️
 
 
 ## Script
