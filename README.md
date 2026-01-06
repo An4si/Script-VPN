@@ -22,7 +22,7 @@ Normalmente, al ejecutar `sudo openvpn archivo.ovpn`, la terminal se queda ocupa
 
 1. **Clona el repositorio:**
    ```bash
-   git clone [https://github.com/An4si/Script-VPN.git](https://github.com/An4si/Script-VPN.git)
+   git clone https://github.com/An4si/Script-VPN.git
    ```
    <br>
 2. **Dale persmisos de ejecucion:**
